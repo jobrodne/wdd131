@@ -1,0 +1,57 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#main-content {
+    background-color: white;
+    padding: 20px;
+   
+}
+/*Aside styles*/
+aside {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border : 1px solid #ddd;
+    
+}
+/*Footer styles*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
