@@ -28,7 +28,7 @@ header h1 {
 nav {
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 nav a {
@@ -76,7 +76,8 @@ main {
 }
 
 .card ul {
-    list-style: none;
+    list-style: disc;
+    margin-left: 20px;
     padding: 0;
 }
 
@@ -86,7 +87,7 @@ main {
 
 .card ul li a {
     text-decoration: none;
-    color: #0066cc;
+    color: #01060b;
 }
 
 .card ul li a:hover {
