@@ -1,0 +1,11 @@
+/* Css for lager screens */
+@media screen and (min-width: 500px) {
+    nav ul {
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+    section {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+}
