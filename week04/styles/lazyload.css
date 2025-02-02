@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #33c653;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+.lazy-img {
+    width: 100%;
+    height: auto;
+    margin: 600px, auto;
+    display: block;opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.lazy-img.loaded {
+    opacity: 1;
+}
