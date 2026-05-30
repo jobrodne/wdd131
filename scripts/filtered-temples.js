@@ -87,8 +87,32 @@ const temples = [
     area: 116642,
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-  }
+  },
 
+  {
+    templeName: "Orem Utah.",
+    location: "Orem, Utah, United States",
+    dedicated: "2024, January, 21",
+    area: 71998,
+    imageUrl: "Orem Utah Temple.jpg",
+  },
+
+  {
+    templeName: "Bismark North Dakota.",
+    location: "Bismark, North Dakota, United States",
+    dedicated: "1999, September, 19",
+    area: 10700,
+    imageUrl: "images/bismark-temple.jpg",
+      
+  },
+
+  {
+    templeName: "Port-au-Prince Haiti.",
+    location: "Port-au-Prince, Haiti",
+    dedicated: "2019, September, 1",
+    area: 10396,
+    imageUrl: "images/haiti-temple.jpg",
+  },
 ];
 
 // SELECT GALLERY
