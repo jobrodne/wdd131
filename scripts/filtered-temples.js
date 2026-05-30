@@ -94,7 +94,7 @@ const temples = [
     location: "Orem, Utah, United States",
     dedicated: "2024, January, 21",
     area: 71998,
-    imageUrl: "Orem Utah Temple.jpg",
+    imageUrl: "images/orem-temple.jpg",
   },
 
   {
